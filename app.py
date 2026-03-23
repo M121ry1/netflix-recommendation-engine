@@ -86,7 +86,7 @@ st.set_page_config(page_title="Netflix Recommender", layout="wide")
 # Top Menu
 head_left, head_right = st.columns([0.8, 0.2])
 with head_left:
-    st.title("Netflix Smart Recommender 🍿")
+    st.title("Netflix Movies Recommendation 🍿")
 with head_right:
     with st.popover("⋮ History"):
         if st.session_state.search_history:
@@ -103,7 +103,7 @@ if df is not None:
     # Use value from history if clicked
     search_query = st.text_input("Enter movie name:", value=st.session_state.current_search)
 
-    if st.button("Find Recommendations"):
+    if st.button("Find Recommended Movies"):
         if search_query:
             if search_query not in st.session_state.search_history:
                 st.session_state.search_history.append(search_query)
