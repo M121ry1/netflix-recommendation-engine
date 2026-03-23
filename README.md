@@ -29,10 +29,6 @@ netflix-recommendation-engine/
 │   ├── matrix_factorization.py
 │   ├── similarity.py
 │   ├── recommender.py
-│   └── utils.py
-├── notebooks/              # Jupyter notebooks for exploration
-└── tests/                  # Unit tests
-```
 
 ## Installation
 
