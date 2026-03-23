@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+nltk
+numpy
+streamlit
+tabulate   # only if you use tabulate for display
